@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Header>
+<wsa:Messaging wsa:schemaLocation="http://www.w3.org/2001/XMLSchema-instance http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/core/ebms-header-3_0-200704.xsd" soapenv:mustUnderstand="0" xmlns:wsa="http://ciscoService.ws.cisco.com">
+<eb:SignalMessage xmlns:eb="http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/">
+<eb:MessageInfo>
+<eb:Timestamp>2013-01-25T05:47:57Z</eb:Timestamp>
+<eb:MessageId>urn:uuid:Q1FY14_Test_Async_Pull_20@ajamode$3a1$1.1.ATNT.com</eb:MessageId>
+</eb:MessageInfo>
+<eb:PullRequest/>
+</eb:SignalMessage>
+</wsa:Messaging>
+<ns:Messaging xmlns:ns="http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/"/></soapenv:Header>
+<soapenv:Body></soapenv:Body>
+</soapenv:Envelope>
